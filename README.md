@@ -290,27 +290,6 @@ The experiments show substantial improvements for the evaluated Qwen-family mode
 Paper link: **Coming soon**
 
 arXiv: **Coming soon**
-
----
-
-## Citation
-
-Please cite the paper if you use LKValues:
-
-```bibtex
-@article{muthugala2026lkvalues,
-  title   = {LKValues: Aligning Large Language Models with Sri Lankan Societal Values},
-  author  = {Muthugala, Nethmi and Supryadi and Ranathunga, Surangika and
-             de Silva, Nisansa and Tao, Ruijie and Gunatunga, Ovindu and
-             Zhu, Pengyun and Zhang, Shaowei and Zheng, Jingting and
-             Xiong, Deyi},
-  journal = {arXiv preprint},
-  year    = {2026}
-}
-```
-
-The BibTeX entry will be updated with the final arXiv identifier.
-
 ---
 
 ## Licenses
@@ -333,4 +312,4 @@ For questions about the dataset or paper, contact:
 
 ## Acknowledgements
 
-We thank the survey participants, annotators, evaluators, and collaborators who contributed to the construction and validation of LKValues.
+This research was supported by the National Key Research and Development Program of China (Grant No.~2024YFE0203000). We sincerely thank all survey participants for contributing their time and perspectives. We are also grateful to the annotators, proofreaders, and Sri Lankan professionals who supported the survey design, data validation, linguistic review, cultural verification, and overall development of the LKValues resources.
