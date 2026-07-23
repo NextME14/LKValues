@@ -287,7 +287,7 @@ The experiments show substantial improvements for the evaluated Qwen-family mode
 
 **LKValues: Aligning Large Language Models with Sri Lankan Societal Values**
 
-Paper link: **Coming soon**
+Paper link: [**LKValues**](https://arxiv.org/abs/2607.20410)
 
 arXiv: **Coming soon**
 ---
