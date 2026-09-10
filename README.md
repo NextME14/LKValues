@@ -2,56 +2,54 @@
 
 **LKValues** is a survey-grounded Sinhala–English resource suite for studying the alignment of large language models with Sri Lankan societal values.
 
+📄 **Paper:** [LKValues: Aligning Large Language Models with Sri Lankan Societal Values](https://arxiv.org/abs/2607.20410)
+
+🤗 **Datasets:** [Nethmi14/LKValues on Hugging Face](https://huggingface.co/datasets/Nethmi14/LKValues)
+
 The project includes:
 
 - **LKvaluesIT** — a bilingual instruction-tuning dataset for value-grounded generation.
 - **LKvaluesBench** — a bilingual benchmark for value-sensitive judgment.
-- Supporting prompts, value definitions, evaluation scripts, and documentation.
 
 > **Important:** LKValues is a survey-bounded, descriptive research resource. It is not an official, exhaustive, or authoritative account of Sri Lankan values.
 
 ---
 
-## Overview
-
-Many existing LLM alignment datasets and benchmarks are dominated by English-language and Western cultural assumptions. LKValues focuses on Sri Lanka, a multilingual, multi-ethnic, and multi-religious society that remains underrepresented in current value-alignment research.
-
-The resource construction process begins with a survey presented simultaneously in **Sinhala, Tamil, and English** to **205 Sri Lankan respondents**. From 51 candidate constructs, we retain **40 majority-endorsed societal values** under the survey's sampling and measurement conditions.
-
-These values are then used to construct two bilingual Sinhala–English resources.
-
----
-
 ## Resources
+
+The full LKValues datasets are publicly available on Hugging Face:
+
+🤗 **[Nethmi14/LKValues](https://huggingface.co/datasets/Nethmi14/LKValues)**
 
 ### LKvaluesIT
 
-LKvaluesIT is a bilingual instruction-tuning dataset derived from Sri Lankan news published between 2009 and 2023.
+**LKvaluesIT** is a bilingual instruction-tuning dataset designed for **value-grounded generation and supervised fine-tuning**.
+
+Given a situation and a target Sri Lankan societal value, the model is expected to generate a short explanation describing how the situation supports that value.
+
+The public release contains the full bilingual instruction datasets:
+
+| Language | Instances |
+| --- | ---: |
+| English | ~150,000 |
+| Sinhala | ~150,000 |
+| Total | ~300,000 |
 
 Each example contains:
 
 - a short situation or scenario;
 - a target societal value;
-- a value-grounded explanation;
-- an English version and an aligned Sinhala version.
+- a value-grounded explanation.
 
-The release contains approximately:
-
-| Split | English | Sinhala |
-|---|---:|---:|
-| Train | 120,000 | 120,000 |
-| Validation | 15,000 | 15,000 |
-| Test | 15,000 | 15,000 |
-
-This corresponds to approximately **150,000 aligned bilingual pairs**.
-
-LKvaluesIT is designed for value-grounded generation and bilingual instruction tuning. It should not be interpreted as a complete representation of all Sri Lankan communities or viewpoints.
+The English and Sinhala datasets are aligned bilingual versions of the same instruction resource.
 
 ### LKvaluesBench
 
-LKvaluesBench is a bilingual value-sensitive judgment benchmark containing **1,000 aligned items** in Sinhala and English.
+**LKvaluesBench** is a bilingual evaluation benchmark designed for **controlled value-sensitive judgment**.
 
-Each item presents:
+It contains **1,000 aligned benchmark instances** in English and Sinhala.
+
+Each item contains:
 
 - a question or scenario;
 - `Statement_A`;
@@ -59,64 +57,8 @@ Each item presents:
 - a gold label from `A`, `B`, `BOTH`, or `0`;
 - a mapped primary societal value.
 
-The benchmark combines:
-
-- 491 human-curated items adapted from SinhalaMMLU; and
-- 509 additional scenario-based items generated with human-in-the-loop verification.
-
 ---
 
-## Dataset Structure
-
-The repository is organized as follows:
-
-```text
-LKValues/
-├── README.md
-├── DATA_CARD.md
-├── CITATION.cff
-├── LICENSE-DATA
-├── LICENSE-CODE
-│
-├── data/
-│   ├── lkvalues_it/
-│   │   ├── train/
-│   │   ├── validation/
-│   │   └── test/
-│   │
-│   ├── lkvalues_bench/
-│   │   ├── lkvaluesbench_en.jsonl
-│   │   └── lkvaluesbench_si.jsonl
-│   │
-│   └── metadata/
-│       ├── value_inventory.csv
-│       ├── dataset_statistics.json
-│       └── data_schema.md
-│
-├── examples/
-│   ├── lkvalues_it_examples.jsonl
-│   └── lkvalues_bench_examples.jsonl
-│
-├── prompts/
-│   ├── value_tagging_prompt.txt
-│   ├── scenario_extraction_prompt.txt
-│   └── benchmark_evaluation_prompts.txt
-│
-├── scripts/
-│   ├── load_dataset.py
-│   ├── validate_schema.py
-│   └── evaluation/
-│
-└── docs/
-    ├── annotation_guidelines.md
-    ├── dataset_construction.md
-    ├── survey_instrument/
-    └── release_notes.md
-```
-
-The final public structure may change slightly as the release is finalized.
-
----
 
 ## Quick Start
 
@@ -187,51 +129,6 @@ Outputs that cannot be normalized to one of these four labels should be counted 
 
 Evaluation scripts and prompts will be released under `scripts/evaluation/` and `prompts/`.
 
----
-
-## The 40 Societal Values
-
-The retained value inventory includes constructs related to family, respect, compassion, responsibility, justice, multiculturalism, resilience, environmentalism, accountability, education, spirituality, political freedom, and other social and civic concerns.
-
-The complete inventory, definitions, endorsement statistics, and related terminology are provided in:
-
-```text
-data/metadata/value_inventory.csv
-```
-
-These values were retained based on majority endorsement within the collected survey sample. They should not be treated as universally endorsed by all Sri Lankans.
-
----
-
-## Construction Pipeline
-
-The main stages are:
-
-1. Selection of value-related items from established international frameworks.
-2. LLM-assisted surfacing of additional candidate constructs for contextual coverage.
-3. Manual consolidation and survey operationalization.
-4. Majority-endorsement analysis using responses from 205 participants.
-5. Value tagging of Sri Lankan news records.
-6. Scenario extraction and Sinhala translation.
-7. Human validation of value labels, explanations, translations, and benchmark items.
-8. Model fine-tuning and bilingual evaluation.
-
-LLMs were used as scalable processing tools. They did not determine the final retained value inventory. Final retention was based on survey responses.
-
----
-
-## Scope and Limitations
-
-LKValues has several important limitations:
-
-- The survey sample is not demographically balanced across all Sri Lankan communities.
-- Majority-based retention may underrepresent minority-held, contested, or polarizing values.
-- The current datasets cover Sinhala and English, while Tamil was included only in the survey stage.
-- The news sources and model-assisted processing pipeline may introduce editorial, linguistic, political, religious, or demographic biases.
-- LKvaluesIT currently focuses on positive value-support explanations and does not fully represent value conflicts or conditional judgments.
-- The benchmark should be used as a research instrument, not as a normative standard for Sri Lanka.
-
-Researchers should report these limitations when using the resources.
 
 ---
 
@@ -257,20 +154,6 @@ Users should conduct subgroup-sensitive and harm-aware evaluations before deploy
 
 ---
 
-## Data Release and Privacy
-
-The public release does not include:
-
-- raw survey responses;
-- participant names or direct identifiers;
-- private demographic combinations that may enable re-identification;
-- original copyrighted news articles;
-- API keys, credentials, or internal project materials.
-
-Only derived annotations, paraphrased scenarios, aligned translations, metadata, and benchmark items are released.
-
----
-
 ## Models Evaluated
 
 The paper evaluates a range of proprietary and open-weight models and adapts the following base models using LKvaluesIT:
@@ -281,15 +164,6 @@ The paper evaluates a range of proprietary and open-weight models and adapts the
 
 The experiments show substantial improvements for the evaluated Qwen-family models in Sinhala and English, while gains remain dependent on model family, adaptation method, and training configuration.
 
----
-
-## Paper
-
-**LKValues: Aligning Large Language Models with Sri Lankan Societal Values**
-
-Paper link: [**LKValues**](https://arxiv.org/abs/2607.20410)
-
-arXiv: **Coming soon**
 ---
 
 ## Licenses
