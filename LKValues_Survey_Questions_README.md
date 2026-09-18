@@ -33,7 +33,7 @@ What is your gender?
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - Female (ස්ත්‍රී - பெண்)
 - Male (පුරුෂ - ஆண்)
@@ -48,7 +48,7 @@ What is your age group?
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 18–24
 - 25–34
@@ -68,7 +68,7 @@ Were you born in Sri Lanka?
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - Yes, born in Sri Lanka (ඔව්, ශ්‍රී ලංකාවේ ඉපදුනා - ஆம், இலங்கையில் பிறந்தவர்)
 - Prefer not to say (නොකියන්න කැමති - சொல்ல விரும்பவில்லை)
@@ -84,7 +84,7 @@ Are you a citizen of Sri Lanka?
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - Yes, Sri Lankan citizen (ඔව්, ශ්‍රී ලාංකික පුරවැසියෙක් - ஆம், இலங்கை குடிமகன்)
 - Prefer not to say (නොකියන්න කැමති - சொல்ல விரும்பவில்லை)
@@ -100,8 +100,6 @@ Which city/province are you originally from in Sri Lanka? (Example: Colombo – 
 
 **Response format:** Free text
 
-**Response options:** Free-text response.
-
 ### D06
 
 **Question**
@@ -111,8 +109,6 @@ In which city and province do you currently live? (Example: Colombo – Western 
 நீங்கள் தற்போது எந்த பட்டணம்/நகரம்...  
 
 **Response format:** Free text
-
-**Response options:** Free-text response.
 
 ### D07
 
@@ -124,7 +120,7 @@ What language do you normally speak at home? (Select the primary language)
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - Sinhala (සිංහල - சிங்களம்)
 - Sinhala and English (සිංහල සහ ඉංග්‍රීසි - சிங்களம் மற்றும் ஆங்கிலம்)
@@ -144,7 +140,7 @@ What is your religion?
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - Buddhism (බුද්ධාගම - பெளத்த‌ மதம்)
 - Christianity (Catholic) (කතෝලික ආගම - கிறிஸ்தவம் (கத்தோலிக்கம்)
@@ -164,7 +160,7 @@ What is your highest level of educational qualification?
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - Postgraduate diploma / Master’s degree (පශ්චාත් උපාධි ඩිප්ලෝමාව / ශාස්ත්‍රපති උපාධිය - முதுகலை டிப்ளமோ / முதுகலைப் பட்டம்)
 - Bachelor’s degree (ප්‍රාථමික උපාධිය - இளங்கலை பட்டம்)
@@ -184,7 +180,7 @@ Family (පවුල - குடும்பம் )
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Very important (ඉතා වැදගත් - மிக முக்கியமானது)
 - 2 = Rather important (තරමක් වැදගත් - ஓரளவு முக்கியமானது)
@@ -199,7 +195,7 @@ Friends (මිතුරන් - நண்பர்கள்)
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Very important (ඉතා වැදගත් - மிக முக்கியமானது)
 - 2 = Rather important (තරමක් වැදගත් - ஓரளவு முக்கியமானது)
@@ -214,7 +210,7 @@ Leisure time (විවේක කාලය - ஓய்வு)
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Very important (ඉතා වැදගත් - மிக முக்கியமானது)
 - 2 = Rather important (තරමක් වැදගත් - ஓரளவு முக்கியமானது)
@@ -229,7 +225,7 @@ Politics (දේශපාලනය - அரசியல்)
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Very important (ඉතා වැදගත් - மிக முக்கியமானது)
 - 2 = Rather important (තරමක් වැදගත් - ஓரளவு முக்கியமானது)
@@ -244,7 +240,7 @@ Work (රැකියාව - வேலை)
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Very important (ඉතා වැදගත් - மிக முக்கியமானது)
 - 2 = Rather important (තරමක් වැදගත් - ஓரளவு முக்கியமானது)
@@ -259,7 +255,7 @@ Religion (ආගම - மதம் )
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Very important (ඉතා වැදගත් - மிக முக்கியமானது)
 - 2 = Rather important (තරමක් වැදගත් - ஓரளவு முக்கியமானது)
@@ -274,7 +270,7 @@ Good manners (හොඳ පුරුදු நல்ல பழக்கவழக
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Very important (ඉතා වැදගත් மிக முக்கியமானவை)
 - 2 = Rather important (තරමක් වැදගත් ஓரளவு முக்கியமானவை)
@@ -289,7 +285,7 @@ Independence (ස්වාධීනත්වය சுதந்திரம் )
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Very important (ඉතා වැදගත් மிக முக்கியமானவை)
 - 2 = Rather important (තරමක් වැදගත් ஓரளவு முக்கியமானவை)
@@ -304,7 +300,7 @@ Hard Work (වෙහෙස මහන්සි වී වැඩ කිරීම �
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Very important (ඉතා වැදගත් மிக முக்கியமானவை)
 - 2 = Rather important (තරමක් වැදගත් ஓரளவு முக்கியமானவை)
@@ -319,7 +315,7 @@ Feeling of responsibility (වගකීම පිළිබඳ හැඟීම �
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Very important (ඉතා වැදගත් மிக முக்கியமானவை)
 - 2 = Rather important (තරමක් වැදගත් ஓரளவு முக்கியமானவை)
@@ -334,7 +330,7 @@ Imagination (පරිකල්පනය கற்பனை)
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Very important (ඉතා වැදගත් மிக முக்கியமானவை)
 - 2 = Rather important (තරමක් වැදගත් ஓரளவு முக்கியமானவை)
@@ -349,7 +345,7 @@ Tolerance and respect for others (අන් අය කෙරෙහි ඉවස�
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Very important (ඉතා වැදගත් மிக முக்கியமானவை)
 - 2 = Rather important (තරමක් වැදගත් ஓரளவு முக்கியமானவை)
@@ -364,7 +360,7 @@ Thrift, Saving money and things (සකසුරුවම්කම, මුදල
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Very important (ඉතා වැදගත් மிக முக்கியமானவை)
 - 2 = Rather important (තරමක් වැදගත් ஓரளவு முக்கியமானவை)
@@ -379,7 +375,7 @@ Determination, perseverance (අධිෂ්ඨානය, නොපසුබට 
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Very important (ඉතා වැදගත් மிக முக்கியமானவை)
 - 2 = Rather important (තරමක් වැදගත් ஓரளவு முக்கியமானவை)
@@ -394,7 +390,7 @@ Religious faith (ආගමික විශ්වාසය மத நம்பி
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Very important (ඉතා වැදගත් மிக முக்கியமானவை)
 - 2 = Rather important (තරමක් වැදගත් ஓரளவு முக்கியமானவை)
@@ -409,7 +405,7 @@ Unselfishness (පරාර්ථකාමීත්වය பரோபகார�
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Very important (ඉතා වැදගත් மிக முக்கியமானவை)
 - 2 = Rather important (තරමක් වැදගත් ஓரளவு முக்கியமானவை)
@@ -424,7 +420,7 @@ Obedience (කීකරුකම கீழ்ப்படிதல்)
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Very important (ඉතා වැදගත් மிக முக்கியமானவை)
 - 2 = Rather important (තරමක් වැදගත් ஓரளவு முக்கியமானவை)
@@ -441,7 +437,7 @@ Taking all things together, how would you describe your life in Sri Lanka?
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Very happy (හරිම සතුටුයි மிகவும் மகிழ்ச்சி)
 - 2 = Rather happy (තරමක් සතුටුයි ஓரளவு மகிழ்ச்சி)
@@ -458,7 +454,7 @@ All in all, how would you describe your state of health these days? Would you sa
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Very good (ඉතා හොඳයි - மிகவும் நல்லது)
 - 2 = Good (හොඳයි - நல்லது)
@@ -475,7 +471,7 @@ How much do you agree with the following statement? “I actively seek opportuni
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - Strongly agree (තරයේ එකඟයි - மிக மிக‌ முக்கியமானது)
 - Neutral (මධ්‍යස්ථ - மிதமான முக்கியமானது)
@@ -490,7 +486,7 @@ Your family (ඔබේ පවුල - உங்கள் குடும்ப�
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Trust completely (සම්පූර්ණයෙන්ම විශ්වාස කරනවා - முழுமையாக நம்புங்கள்)
 - 2 = Trust somewhat (තරමක් විශ්වාස කරනවා - ஓரளவு நம்புங்கள்)
@@ -505,7 +501,7 @@ Your neighborhood (ඔබේ අසල්වැසියන් - உங்கள
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Trust completely (සම්පූර්ණයෙන්ම විශ්වාස කරනවා - முழுமையாக நம்புங்கள்)
 - 2 = Trust somewhat (තරමක් විශ්වාස කරනවා - ஓரளவு நம்புங்கள்)
@@ -520,7 +516,7 @@ People you know personally (ඔබ පෞද්ගලිකව දන්නා �
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Trust completely (සම්පූර්ණයෙන්ම විශ්වාස කරනවා - முழுமையாக நம்புங்கள்)
 - 2 = Trust somewhat (තරමක් විශ්වාස කරනවා - ஓரளவு நம்புங்கள்)
@@ -535,7 +531,7 @@ People you meet for the first time (ඔබ පළමු වරට මුණග�
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Trust completely (සම්පූර්ණයෙන්ම විශ්වාස කරනවා - முழுமையாக நம்புங்கள்)
 - 2 = Trust somewhat (තරමක් විශ්වාස කරනවා - ஓரளவு நம்புங்கள்)
@@ -550,7 +546,7 @@ People of another religion (වෙනත් ආගමක මිනිසුන�
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Trust completely (සම්පූර්ණයෙන්ම විශ්වාස කරනවා - முழுமையாக நம்புங்கள்)
 - 2 = Trust somewhat (තරමක් විශ්වාස කරනවා - ஓரளவு நம்புங்கள்)
@@ -565,7 +561,7 @@ People of another nationality (වෙනත් ජාතියක මිනි�
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Trust completely (සම්පූර්ණයෙන්ම විශ්වාස කරනවා - முழுமையாக நம்புங்கள்)
 - 2 = Trust somewhat (තරමක් විශ්වාස කරනවා - ஓரளவு நம்புங்கள்)
@@ -581,7 +577,7 @@ How much do you agree with the following statement? “I make an effort to under
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - Strongly agree (තරයේ එකඟයි - உறுதியாக உடன்படுகிறேன்)
 - Agree (එකඟයි - உடன்படுகிறேன்)
@@ -597,7 +593,7 @@ How much do you agree with the following statement? “I regularly participate i
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - Agree (එකඟයි - உடன்படுகிறேன்)
 - Strongly agree (තරයේ එකඟයි - கடுமையாக உடன்படுகிறேன்)
@@ -615,7 +611,7 @@ Choose one based on your view.
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - There should be greater incentives for individual effort (තනි පුද්ගල උත්සාහය සඳහා වැඩි දිරිගැන්වීම් තිබිය යුතුය. - தனிப்பட்ட முயற்சிக்கு அதிக ஊக்கத்தொகைகள் இருக்க வேண்டும்)
 - Incomes should be made more equal (ආදායම් සියලුදෙනා අතර වඩාත් සමාන කළ යුතුය. - வருமானம் சமமாக இருக்க வேண்டும்)
@@ -630,7 +626,7 @@ Choose one based on your view.
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - There is abundant corruption in my country (මගේ රටේ දූෂණය බහුලයි. - என் நாட்டில் ஊழல் பரவலாக உள்ளது)
 - There is no corruption in my country (මගේ රට දූෂණයෙන් තොරයි. - என் நாட்டில் ஊழல் இல்லை)
@@ -645,7 +641,7 @@ Have you or a family member or a friend been the victim of a crime during the pa
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - No (නැත - இல்லை)
 - Yes (ඔව් - ஆம்)
@@ -658,7 +654,7 @@ A war involving my country (මගේ රට සම්බන්ධයෙන් �
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Very much (අනිවාර්යයෙන්ම நிச்சயமாக)
 - 2 = A good deal (හැකියාවක් ඇත சாத்தியம் உள்ளது)
@@ -673,7 +669,7 @@ A terrorist attack (ත්‍රස්තවාදී ප්‍රහාරය�
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Very much (අනිවාර්යයෙන්ම நிச்சயமாக)
 - 2 = A good deal (හැකියාවක් ඇත சாத்தியம் உள்ளது)
@@ -688,7 +684,7 @@ A civil war (සිවිල් යුද්ධයක් - ஒரு உள்�
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Very much (අනිවාර්යයෙන්ම நிச்சயமாக)
 - 2 = A good deal (හැකියාවක් ඇත சாத்தியம் உள்ளது)
@@ -703,7 +699,7 @@ Of course, we all hope that there will not be another war, but if it were to com
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Very much (අනිවාර්යයෙන්ම நிச்சயமாக)
 - 2 = A good deal (හැකියාවක් ඇත சாத்தியம் உள்ளது)
@@ -719,7 +715,7 @@ According to your view, pick the 2 most important things from this list.ඔබ�
 
 **Response format:** Multiple select (choose 2)
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - Fighting rising prices (ඉහළ යන මිල ගණන්වලට එරෙහිව සටන් කිරීම - விலைவாசி உயர்வுக்கு எதிராகப் போராடுதல்.)
 - Protecting freedom of speech (වචනයේ නිදහස ආරක්ෂා කිරීම - பேச்சு சுதந்திரத்தைப் பாதுகாத்தல்.)
@@ -736,7 +732,7 @@ According to your view, pick the 2 most important things from this list
 
 **Response format:** Multiple select (choose 2)
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - A stable economy (ස්ථාවර ආර්ථිකයක් - நிலையான பொருளாதாரம்)
 - Progress toward a society in which ideas count more than money ( මුදලට වඩා අදහස් (දෘෂ්ටි) වැදගත් වන සමාජයක් කරා ප්‍රගතිය - பணத்தை விட கருத்துக்கள் (கருத்துக்கள்) அதிக முக்கியத்துவம் வாய்ந்த ஒரு சமூகத்தை நோக்கிய முன்னேற்றம்)
@@ -753,7 +749,7 @@ Independently of whether you attend religious services or not, would you say you
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - A religious person (ආගමික පුද්ගලයෙකි - மதவாதி)
 - Not a religious person (ආගමික පුද්ගලයෙක් නොවේ - மதவாதி அல்ல)
@@ -767,7 +763,7 @@ Claiming government benefits to which you are not entitled (ඔබට හිම�
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1
 - 2
@@ -783,7 +779,7 @@ Avoiding a fare on public transport (පොදු ප්‍රවාහනයේ
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1
 - 2
@@ -815,7 +811,7 @@ Cheating on taxes if you have a chance (අවස්ථාවක් ඇත්න
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options**
 
 - 1
 - 2
@@ -831,7 +827,7 @@ Someone accepting a bribe in the course of their duties (තම රාජකා�
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1
 - 2
@@ -847,7 +843,7 @@ Homosexuality (සමලිංගිකත්වය - ஓரினச்சே�
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options**
 
 - 1
 - 2
@@ -863,7 +859,7 @@ Same sex couples adopting children (දරුවන් හදා වඩා ග�
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options**
 
 - 1
 - 2
@@ -879,7 +875,7 @@ Prostitution (ගණිකා වෘත්තිය - விபச்சார�
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options**
 
 - 1
 - 2
@@ -895,7 +891,7 @@ Abortion (ගබ්සා කිරීම - கருக்கலைப்பு
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options**
 
 - 1
 - 2
@@ -911,7 +907,7 @@ Divorce (දික්කසාදය - விவாகரத்து)
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options**
 
 - 1
 - 2
@@ -927,7 +923,7 @@ Sex before marriage (විවාහයට පෙර ලිංගිකත්ව
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options**
 
 - 1
 - 2
@@ -943,7 +939,7 @@ Suicide (සියදිවි නසා ගැනීම - தற்கொலை
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1
 - 2
@@ -959,7 +955,7 @@ Painless killing (වේදනා රහිත ඝාතනය - இரக்க
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1
 - 2
@@ -975,7 +971,7 @@ For a man to beat his wife (පිරිමියෙකු තම බිරි�
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1
 - 2
@@ -991,7 +987,7 @@ Parents beating children (දෙමාපියන් දරුවන්ට ප�
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1
 - 2
@@ -1007,7 +1003,7 @@ Violence against other people (වෙනත් පුද්ගලයින්ට
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1
 - 2
@@ -1023,7 +1019,7 @@ Terrorism as a political, ideological or religious mean (දේශපාලන, 
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1
 - 2
@@ -1039,7 +1035,7 @@ Having casual sex (අවිධිමත්, අහඹු ලිංගික ස
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1
 - 2
@@ -1055,7 +1051,7 @@ Political violence (දේශපාලන ප්‍රචණ්ඩත්වය -
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1
 - 2
@@ -1071,7 +1067,7 @@ Death penalty (මරණ දඬුවම - மரண தண்டனை)
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1
 - 2
@@ -1087,7 +1083,7 @@ Donating to a group or campaign (කණ්ඩායමකට හෝ ප්‍ර
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Have done (කර තිබෙනවා - செய்திருக்கின்றேன் )
 - 2 = Might do (අනාගතයේ දී කළ හැකියි - எதிர்காலத்தில் செய்யலாம்)
@@ -1102,7 +1098,7 @@ Contacting a government official (රජයේ නිලධාරියෙකු
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Have done (කර තිබෙනවා - செய்திருக்கின்றேன் )
 - 2 = Might do (අනාගතයේ දී කළ හැකියි - எதிர்காலத்தில் செய்யலாம்)
@@ -1117,7 +1113,7 @@ Encouraging others to take action about political issues (දේශපාලන�
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Have done (කර තිබෙනවා - செய்திருக்கின்றேன் )
 - 2 = Might do (අනාගතයේ දී කළ හැකියි - எதிர்காலத்தில் செய்யலாம்)
@@ -1132,7 +1128,7 @@ Encouraging others to vote (ඡන්දය දීමට අන් අය දි
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options :**
 
 - 1 = Have done (කර තිබෙනවා - செய்திருக்கின்றேன் )
 - 2 = Might do (අනාගතයේ දී කළ හැකියි - எதிர்காலத்தில் செய்யலாம்)
@@ -1149,7 +1145,7 @@ When elections take place in local level and national level, do you vote or don'
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Always (සෑම විටම - எப்போதும்)
 - 2 = Usually (සාමාන්‍යයෙන් - வழக்கமாக)
@@ -1165,7 +1161,7 @@ How democratically is Sri Lanka being governed today?Rate on the scale of 1-5 (1
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = not at all democratic (කිසිසේත්ම ප්‍රජාතන්ත්‍රවාදී නොවේ - முற்றிலும் ஜனநாயகமற்றது)
 - 2 = not very much democratic (එතරම් ප්‍රජාතන්ත්‍රවාදී නොවේ - மிகவும் ஜனநாயகமாக இல்லை.)
@@ -1182,7 +1178,7 @@ A significant advantage of a one-party state is that it avoids all the arguments
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options :**
 
 - 1 = Strongly Disagree (දැඩි ලෙස එකඟ නොවේ - கடுமையாக உடன்படவில்லை)
 - 2 = Disagree (එකඟ නොවේ - உடன்படவில்லை)
@@ -1199,7 +1195,7 @@ How proud are you to be a Sri Lankan?
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Very proud (හරිම ආඩම්බරයි - மிகவும் பெருமைப்படுகிறேன்)
 - 2 = Quite proud (තරමක් ආඩම්බරයි - ஓரளவு பெருமைப்படுகிறேன்)
@@ -1217,7 +1213,7 @@ Our race has many superior qualities, compared with other races.
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Strongly Disagree (දැඩි ලෙස එකඟ නොවේ - கடுமையாக உடன்படுகிறேன்)
 - 2 = Disagree (එකඟ නොවේ - உடன்படுகிறேன்)
@@ -1233,7 +1229,7 @@ A genuine free market requires restrictions on the ability of predator multinati
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Strongly Disagree (දැඩි ලෙස එකඟ නොවේ - கடுமையாக உடன்படவில்லை)
 - 2 = Disagree (එකඟ නොවේ - உடன்படவில்லை)
@@ -1250,7 +1246,7 @@ In criminal justice, punishment should be more important than rehabilitation.
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Strongly agree (තරයේ එකඟයි - கடுமையாக உடன்படுகிறேன்)
 - 2 = Agree (එකඟයි - உடன்படுகிறேன்)
@@ -1265,7 +1261,7 @@ What do you think about this phrase when it comes to the real life scenarios “
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Strongly agree (තරයේ එකඟයි - கடுமையாக உடன்படுகிறேன்)
 - 2 = Agree (එකඟයි - உடன்படுகிறேன்)
@@ -1281,7 +1277,7 @@ How much do you agree with the following statement? “I take personal actions t
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - Strongly agree (තරයේ එකඟයි - மிகவும் முக்கியமானது)
 - Neutral (මධ්‍යස්ථ - மிதமான முக்கியத்துவம்)
@@ -1297,7 +1293,7 @@ Here are three basic kinds of attitudes concerning the society we live in. Pleas
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - Our present society must be valiantly defended against all subversive forces (සමාජය සියලු කඩාකප්පල්කාරී බලවේගයන්ට එරෙහිව නිර්භීතව ආරක්ෂා කළ යුතුය. - நமது தற்போதைய சமூகம் அனைத்து சீர்குலைக்கும் சக்திகளுக்கும் எதிராக தைரியமாக பாதுகாக்கப்பட வேண்டும்.)
 - The entire way our society is organized must be radically changed by revolutionary action (අපගේ සමාජය සංවිධානය වී ඇති ආකාරය මුළුමනින්ම විප්ලවීය ක්‍රියාමාර්ග මගින් රැඩිකල් ලෙස වෙනස් කළ යුතුය. - நமது சமூகம் ஒழுங்கமைக்கப்பட்ட விதம் புரட்சிகர நடவடிக்கைகள் மூலம் தீவிரமாக மாற்றப்பட வேண்டும்.)
@@ -1312,7 +1308,7 @@ A company's or organization's rules should not be broken not even when the emplo
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = of utmost importance (සම්පුර්ණයෙන්ම වැදගත් - மிகவும் முக்கியமானது)
 - 2 = very important (ඉතා වැදගත් - மிக முக்கியமானது)
@@ -1330,7 +1326,7 @@ Those with the ability to pay should have access to higher standards of medical 
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Strongly agree (තරයේ එකඟයි - கடுமையாக உடன்படுகிறேன்)
 - 2 = Agree (එකඟයි - உடன்படுகிறேன்)
@@ -1347,7 +1343,7 @@ Choose one based on your view.
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - Hard work doesn’t generally bring success—it’s more a matter of luck and connections (වෙහෙස මහන්සි වී වැඩ කිරීමෙන් සාමාන්‍යයෙන් සාර්ථකත්වය ලැබෙන්නේ නැත, එය වැඩි වශයෙන් වාසනාව සහ සම්බන්ධතා මත රඳා පවතී. - கடின உழைப்பு பொதுவாக வெற்றிக்கு வழிவகுக்காது - அது அதிர்ஷ்டம் மற்றும் தொடர்புகளைப் பொறுத்தது.)
 - In the long run, hard work usually brings a better life (දිගු කාලීනව ගත් කල, වෙහෙස මහන්සි වී වැඩ කිරීම සාමාන්‍යයෙන් වඩා හොඳ ජීවිතයක් ගෙන දෙයි. - நீண்ட காலத்திற்கு, கடின உழைப்பு பொதுவாக சிறந்த வாழ்க்கைக்கு வழிவகுக்கும்.)
@@ -1360,7 +1356,7 @@ Young people should always stand up when an elder enters the room. (වැඩි
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Strongly Disagree (දැඩි ලෙස එකඟ නොවේ - கடுமையாக உடன்படவில்லை)
 - 2 = Disagree (එකඟ නොවේ - உடன்படவில்லை )
@@ -1376,7 +1372,7 @@ When someone visits my home, I make them feel welcome by offering food or drink.
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Strongly Disagree (දැඩි ලෙස එකඟ නොවේ - கடுமையாக உடன்படவில்லை)
 - 2 = Disagree (එකඟ නොවේ - உடன்படவில்லை )
@@ -1392,7 +1388,7 @@ After a crisis like the economic collapse or war, people should quickly rebuild 
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options :**
 
 - 1 = Strongly Disagree (දැඩි ලෙස එකඟ නොවේ - கடுமையாக உடன்படவில்லை)
 - 2 = Disagree (එකඟ නොවේ - உடன்படவில்லை )
@@ -1408,7 +1404,7 @@ Disagreements should always be settled through dialogue, not confrontation. (අ
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Strongly Disagree (දැඩි ලෙස එකඟ නොවේ - கடுமையாக உடன்படவில்லை)
 - 2 = Disagree (එකඟ නොවේ - உடன்படவில்லை )
@@ -1424,7 +1420,7 @@ It is important to make sure others notice my achievements. (මගේ ජයග
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Strongly Disagree (දැඩි ලෙස එකඟ නොවේ - கடுமையாக உடன்படவில்லை)
 - 2 = Disagree (එකඟ නොවේ - உடன்படவில்லை )
@@ -1440,7 +1436,7 @@ I would feel deep shame if my actions brought dishonor to my family name. (ම�
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Strongly Disagree (දැඩි ලෙස එකඟ නොවේ - கடுமையாக உடன்படவில்லை)
 - 2 = Disagree (එකඟ නොවේ - உடன்படவில்லை )
@@ -1456,7 +1452,7 @@ You accidentally broke your neighbor’s fence while parking. The right thing to
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options :**
 
 - 1 = Strongly Disagree (දැඩි ලෙස එකඟ නොවේ - கடுமையாக உடன்படவில்லை)
 - 2 = Disagree (එකඟ නොවේ - உடன்படவில்லை )
@@ -1472,7 +1468,7 @@ No matter where I am in the world, I always try celebrate the Sinhala and Tamil 
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options:**
 
 - 1 = Strongly Disagree (දැඩි ලෙස එකඟ නොවේ - கடுமையாக உடன்படவில்லை)
 - 2 = Disagree (එකඟ නොවේ - உடன்படவில்லை )
@@ -1488,7 +1484,7 @@ I always keep a bowl of water outside when it's super hot and sunny, so stray do
 
 **Response format:** Multiple choice / scaled response
 
-**Response options observed in the survey export:**
+**Response options :**
 
 - 1 = Strongly Disagree (දැඩි ලෙස එකඟ නොවේ - கடுமையாக உடன்படவில்லை)
 - 2 = Disagree (එකඟ නොවේ - உடன்படவில்லை )
@@ -1599,11 +1595,14 @@ Intermarriage or close friendships across communities should be discouraged (ප
 - Numeric-only scales are retained as numeric codes when the original response export does not contain the full verbal anchors for that item.
 - The survey instrument is **survey-bounded** and should not be interpreted as an official or exhaustive definition of Sri Lankan societal values.
 
-## Paper and dataset
+## Paper and the resources
 
 - **Paper:** https://arxiv.org/abs/2607.20410
 - **LKValues datasets:** https://huggingface.co/datasets/Nethmi14/LKValues
 - **GitHub repository:** https://github.com/NextME14/LKValues
+- **Link to the survey:** https://forms.cloud.microsoft/r/2Ti8M9XM2U
+- **Link to the value validation quessionaire:** https://forms.gle/yMJvPSmrejKp9caH9
+- **Sample Size Calculator:** https://www.calculator.net/sample-size-calculator.html?type=2&cl2=85&ss2=205&pc2=50&ps2=21781800&x=Calculate#findci 
 
 ## Citation
 
@@ -1611,12 +1610,12 @@ If you use the LKValues survey instrument or associated resources, please cite:
 
 ```bibtex
 @misc{muthugala2026lkvaluesaligninglargelanguage,
-      title={LKValues: Aligning Large Language Models with Sri Lankan Societal Values},
+      title={LKValues: Aligning Large Language Models with Sri Lankan Societal Values}, 
       author={Nethmi Muthugala and Supryadi and Surangika Ranathunga and Nisansa de Silva and Ruijie Tao and Ovindu Gunatunga and Pengyun Zhu and Shaowei Zhang and Jingting Zheng and Deyi Xiong},
       year={2026},
       eprint={2607.20410},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2607.20410},
+      url={https://arxiv.org/abs/2607.20410}, 
 }
 ```
