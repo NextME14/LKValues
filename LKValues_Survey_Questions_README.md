@@ -1588,12 +1588,7 @@ Intermarriage or close friendships across communities should be discouraged (ප
 - 4 = Agree (එකඟයි - உடன்படுகிறேன்)
 - 5 = Strongly Agree (තරයේ එකඟයි - கடுமையாக உடன்படுகிறேன்)
 
-## Notes on interpretation
 
-- Some exported columns are individual rows of matrix questions. In those cases, the item text is preserved exactly as exported, while the shared response scale is reconstructed from adjacent items using the same scale.
-- Some answer choices appear in slightly different bilingual or trilingual forms across responses. Where possible, this file keeps the most complete observed wording while collapsing obvious duplicate variants.
-- Numeric-only scales are retained as numeric codes when the original response export does not contain the full verbal anchors for that item.
-- The survey instrument is **survey-bounded** and should not be interpreted as an official or exhaustive definition of Sri Lankan societal values.
 
 ## Paper and the resources
 
