@@ -2,7 +2,7 @@
 
 **LKValues** is a survey-grounded Sinhala–English resource suite for studying the alignment of large language models with Sri Lankan societal values.
 
-📄 **Paper:** [LKValues: Aligning Large Language Models with Sri Lankan Societal Values](https://arxiv.org/abs/2607.20410)
+📄 **Paper:** [LKValues: Aligning Large Language Models with Sri Lankan Societal Values]([https://aclanthology.org/2026.aacl-long.118/])
 
 🤗 **Datasets:** [Nethmi14/LKValues on Hugging Face](https://huggingface.co/datasets/Nethmi14/LKValues)
 
